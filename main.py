@@ -18,7 +18,7 @@ import asyncpg
 # ================= 🔧 НАСТРОЙКИ 🔧 =================
 BOT_TOKEN = "8950068828:AAGGTOqKNHCGzLj-4VsfSjMe-ImLynRaNKg"
 CHANNEL_USERNAME = "@ratevinchik"
-DATABASE_URL = "postgres://neondb_owner:npg_G9EeWbxdrUg2@ep-still-heart-ayeph7s3-pooler.c-5.us-east-2.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = "postgresql://neondb_owner:npg_dynKuOEmo28X@ep-young-haze-axtbbubu-pooler.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 ADMIN_USERNAMES = ["BLRPMM", "Lelouch_Vi_Britannia4"]
 ADMIN_ID_NUM = 746812838  # ID для уведомлений
