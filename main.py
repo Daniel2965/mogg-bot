@@ -30,14 +30,14 @@ dp = Dispatcher(storage=MemoryStorage())
 db_pool: asyncpg.Pool = None
 
 MALE_SCORES = [
-    ("🕸️ Bad3", "sub 3"), ("🕸️ Bad5", "sub 5"),
+    ("🕸️ Sub3", "sub 3"), ("🕸️ Sub5", "sub 5"),
     ("🕸️ Ltn", "ltn"), ("🕸️ Mtn", "mtn"),
     ("🕸️ Htn", "htn"), ("🕸️ Chad-Lite", "chad-lite"),
     ("🕸️ Chad", "chad"), ("🕸️ True Adam", "true adam")
 ]
 
 FEMALE_SCORES = [
-    ("🕸️ Bad3", "sub 3"), ("🕸️ Bad5", "sub 5"),
+    ("🕸️ Sub3", "sub 3"), ("🕸️ Sub5", "sub 5"),
     ("🕸️ Ltb", "ltb"), ("🕸️ Mtb", "mtb"),
     ("🕸️ Htb", "htb"), ("🕸️ Stacy-Lite", "stacy-lite"),
     ("🕸️ Stacy", "stacy"), ("🕸️ True Eve", "true eve")
