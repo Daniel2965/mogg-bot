@@ -20,7 +20,7 @@ BOT_TOKEN = "8950068828:AAGGTOqKNHCGzLj-4VsfSjMe-ImLynRaNKg"
 CHANNEL_USERNAME = "@ratevinchik"
 DATABASE_URL = "postgresql://neondb_owner:npg_dynKuOEmo28X@ep-young-haze-axtbbubu-pooler.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
-ADMIN_USERNAMES = ["BLRPMM", "Lelouch_Vi_Britannia4"]
+ADMIN_USERNAMES = ["BLRPMM", "Lelouch_Vi_Britannia4", "Yttte6"]
 ADMIN_ID_NUM = 746812838  # ID для уведомлений
 # ===================================================
 
