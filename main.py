@@ -9,7 +9,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, InputMediaPhoto
 
 # --- CONFIG ---
-BOT_TOKEN = "ТВОЙ_ТОКЕН"
+BOT_TOKEN = "8950068828:AAGGTOqKNHCGzLj-4VsfSjMe-ImLynRaNKg"
 DATABASE_URL = "postgresql://neondb_owner:npg_dynKuOEmo28X@ep-young-haze-axtbbubu-pooler.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require"
 ADMINS = ["BLRPMM", "Lelouch_Vi_Britannia"]
 
