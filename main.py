@@ -101,7 +101,7 @@ async def cmd_start(message: types.Message, state: FSMContext):
     kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="✅ Да, согласен ✨", callback_data="agree_policy")]
     ])
-    await message.answer("👋 Добро пожаловать!", reply_markup=kb)
+    await message.answer("👋 Добро пожаловать! Нажмите кнопку ниже если согласны с политикой конфиденциальности.", reply_markup=kb)
     await state.set_state(Registration.waiting_for_agreement)
 
 @dp.callback_query(F.data == "agree_policy")
